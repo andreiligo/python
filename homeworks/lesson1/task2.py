@@ -1,4 +1,4 @@
-users_seconds = input('Please enter number of seconds: ')
+users_seconds = input('Please enter the number of seconds: ')
 users_seconds = int(users_seconds)
 users_hours = users_seconds // 3600
 users_minutes = (users_seconds - users_hours * 3600) // 60

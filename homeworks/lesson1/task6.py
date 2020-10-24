@@ -4,4 +4,4 @@ day = 1
 while goal_distance >= first_day_distance:
     day += 1
     first_day_distance = first_day_distance * 1.1
-print('At the day number {0}, our athlete have run more than {1}.'.format(day,goal_distance))
+print('At the day number {0}, our athlete have run more than {1}.'.format(day, goal_distance))

@@ -1,7 +1,7 @@
 profit = float(input('Please enter profit of your company: '))
 costs = float(input('Please enter costs of your company: '))
+clear_profit = profit - costs
 if profit > costs:
-    clear_profit = profit - costs
     profitability = clear_profit / profit * 100
     print('Company is working in profit, your profitability is {0}%'.format(profitability))
 elif profit < costs:
