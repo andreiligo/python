@@ -14,7 +14,7 @@ user_month = int(input('Please enter month number: '))
 print(dic1.get(user_month))
 
 
-#реализовуем через list
+# реализовываем через list
 list1 = ['winter', 'spring', 'summer', 'autumn']
 user_num = int(input('Please enter the number: '))
 if user_num in (12, 1, 2):
